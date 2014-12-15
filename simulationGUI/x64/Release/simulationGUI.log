@@ -1,0 +1,314 @@
+﻿Build started 2014-12-15 2:13:17 PM.
+     1>Project "C:\Users\Sabrina\Desktop\simulationGUI\simulationGUI\simulationGUI.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Sabrina\Desktop\simulationGUI\x64\Release\".
+       InitializeBuildStatus:
+         Creating "x64\Release\simulationGUI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Rcc'ing simgui.qrc...
+         Moc'ing simguisettingsdialog.h...
+         Moc'ing id_dialog.h...
+         Moc'ing graphictextdialog.h...
+         Moc'ing filldialog.h...
+         Moc'ing vtabwidget.h...
+         Moc'ing vtabbutton.h...
+         Moc'ing vtabbeddockwidget.h...
+         Moc'ing vtabbar.h...
+         Moc'ing vasettingsdialog.h...
+         Moc'ing sweepdialog.h...
+         Moc'ing simmessage.h...
+         Moc'ing settingsdialog.h...
+         Moc'ing searchdialog.h...
+         Moc'ing savedialog.h...
+         Moc'ing packagedialog.h...
+         Moc'ing newprojdialog.h...
+         Moc'ing matchdialog.h...
+         Moc'ing loaddialog.h...
+         Moc'ing librarydialog.h...
+         Moc'ing labeldialog.h...
+         Moc'ing importdialog.h...
+         Moc'ing exportdialog.h...
+         Moc'ing digisettingsdialog.h...
+         Moc'ing changedialog.h...
+         Moc'ing markerdialog.h...
+         Moc'ing diagramdialog.h...
+         Moc'ing spicefile.h...
+         Moc'ing spicedialog.h...
+         Moc'ing componentdialog.h...
+         Moc'ing simgui.h...
+         Moc'ing textdoc.h...
+         Moc'ing schematic.h...
+         Moc'ing octave_window.h...
+         Moc'ing messagedock.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /I"C:\Qt\qt-4.8.6-x64-msvc2012\include" /I.\GeneratedFiles\Release /I"C:\Qt\qt-4.8.6-x64-msvc2012\include\QtCore" /I"C:\Qt\qt-4.8.6-x64-msvc2012\include\QtGui" /I"C:\Qt\qt-4.8.6-x64-msvc2012\include\QtWidgets" /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt components\ampere_ac.cpp components\ampere_dc.cpp components\capacitor.cpp components\component.cpp components\componentdialog.cpp components\equation.cpp components\ground.cpp components\inductor.cpp components\iprobe.cpp components\libcomp.cpp components\param_sweep.cpp components\resistor.cpp components\source_ac.cpp components\sparamfile.cpp components\spicedialog.cpp components\spicefile.cpp components\vacomponent.cpp components\vafile.cpp components\volt_ac.cpp components\volt_dc.cpp components\vprobe.cpp diagrams\diagram.cpp diagrams\diagramdialog.cpp diagrams\graph.cpp diagrams\marker.cpp diagrams\markerdialog.cpp diagrams\smithdiagram.cpp diagrams\tabdiagram.cpp diagrams\timingdiagram.cpp diagrams\truthdiagram.cpp dialogs\changedialog.cpp dialogs\digisettingsdialog.cpp dialogs\exportdialog.cpp dialogs\importdialog.cpp dialogs\labeldialog.cpp dialogs\librarydialog.cpp dialogs\loaddialog.cpp dialogs\matchdialog.cpp dialogs\newprojdialog.cpp dialogs\packagedialog.cpp dialogs\savedialog.cpp dialogs\searchdialog.cpp dialogs\settingsdialog.cpp dialogs\simguisettingsdialog.cpp dialogs\simmessage.cpp dialogs\sweepdialog.cpp dialogs\vasettingsdialog.cpp dialogs\vtabbar.cpp dialogs\vtabbeddockwidget.cpp dialogs\vtabbutton.cpp dialogs\vtabwidget.cpp element.cpp GeneratedFiles\Release\moc_changedialog.cpp GeneratedFiles\Release\moc_componentdialog.cpp GeneratedFiles\Release\moc_diagramdialog.cpp GeneratedFiles\Release\moc_digisettingsdialog.cpp GeneratedFiles\Release\moc_exportdialog.cpp GeneratedFiles\Release\moc_filldialog.cpp GeneratedFiles\Release\moc_graphictextdialog.cpp GeneratedFiles\Release\moc_id_dialog.cpp GeneratedFiles\Release\moc_importdialog.cpp GeneratedFiles\Release\moc_labeldialog.cpp GeneratedFiles\Release\moc_librarydialog.cpp GeneratedFiles\Release\moc_loaddialog.cpp GeneratedFiles\Release\moc_markerdialog.cpp GeneratedFiles\Release\moc_matchdialog.cpp GeneratedFiles\Release\moc_messagedock.cpp GeneratedFiles\Release\moc_newprojdialog.cpp GeneratedFiles\Release\moc_octave_window.cpp GeneratedFiles\Release\moc_packagedialog.cpp GeneratedFiles\Release\moc_savedialog.cpp GeneratedFiles\Release\moc_schematic.cpp GeneratedFiles\Release\moc_searchdialog.cpp GeneratedFiles\Release\moc_settingsdialog.cpp GeneratedFiles\Release\moc_simgui.cpp GeneratedFiles\Release\moc_simguisettingsdialog.cpp GeneratedFiles\Release\moc_simmessage.cpp GeneratedFiles\Release\moc_spicedialog.cpp GeneratedFiles\Release\moc_spicefile.cpp GeneratedFiles\Release\moc_sweepdialog.cpp GeneratedFiles\Release\moc_textdoc.cpp GeneratedFiles\Release\moc_vasettingsdialog.cpp GeneratedFiles\Release\moc_vtabbar.cpp GeneratedFiles\Release\moc_vtabbeddockwidget.cpp GeneratedFiles\Release\moc_vtabbutton.cpp GeneratedFiles\Release\moc_vtabwidget.cpp main.cpp messagedock.cpp mnemo.cpp module.cpp mouseactions.cpp node.cpp octave_window.cpp paintings\filldialog.cpp paintings\graphictextdialog.cpp paintings\id_dialog.cpp paintings\id_text.cpp paintings\painting.cpp paintings\portsymbol.cpp schematic.cpp schematic_element.cpp schematic_file.cpp simgui.cpp simguidoc.cpp simgui_actions.cpp simgui_init.cpp syntax.cpp textdoc.cpp viewpainter.cpp wire.cpp wirelabel.cpp
+         ampere_ac.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         ampere_dc.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         capacitor.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         component.cpp
+     1>components\component.cpp(11): fatal error C1083: Cannot open include file: 'QtXml': No such file or directory
+         componentdialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         equation.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         ground.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         inductor.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         iprobe.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         libcomp.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         param_sweep.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         resistor.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         source_ac.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         sparamfile.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         spicedialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\spicedialog.h(10): fatal error C1083: Cannot open include file: 'Q3VBoxLayout': No such file or directory
+         spicefile.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         vacomponent.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         vafile.cpp
+     1>components\vafile.cpp(31): error C2039: 'find' : is not a member of 'QString'
+                 C:\Qt\qt-4.8.6-x64-msvc2012\include\QtCore/qstring.h(84) : see declaration of 'QString'
+     1>components\vafile.cpp(31): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         volt_ac.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         volt_dc.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         Generating Code...
+         Compiling...
+         vprobe.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         diagram.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\diagrams\graph.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         diagramdialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\diagrams\graph.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         graph.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\diagrams\graph.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         marker.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\diagrams\graph.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         markerdialog.cpp
+     1>diagrams\markerdialog.cpp(6): fatal error C1083: Cannot open include file: 'Q3HBox': No such file or directory
+         smithdiagram.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\diagrams\graph.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         tabdiagram.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\diagrams\graph.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         timingdiagram.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\diagrams\graph.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         truthdiagram.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\diagrams\graph.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         changedialog.cpp
+     1>.\node.h(7): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         digisettingsdialog.cpp
+     1>.\main.h(15): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         exportdialog.cpp
+     1>dialogs\exportdialog.cpp(8): error C3861: 'setCaption': identifier not found
+     1>dialogs\exportdialog.cpp(148): error C2039: 'selectedFile' : is not a member of 'QFileDialog'
+                 c:\qt\qt-4.8.6-x64-msvc2012\include\qtgui\qfiledialog.h(66) : see declaration of 'QFileDialog'
+         importdialog.cpp
+     1>.\main.h(15): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         labeldialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\dialogs\../wirelabel.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         librarydialog.cpp
+     1>.\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         loaddialog.cpp
+     1>dialogs\loaddialog.cpp(12): fatal error C1083: Cannot open include file: 'QScriptEngine': No such file or directory
+         matchdialog.cpp
+     1>.\main.h(15): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         newprojdialog.cpp
+     1>dialogs\newprojdialog.cpp(13): error C2664: 'QDialog::QDialog(QDialogPrivate &,QWidget *,Qt::WindowFlags)' : cannot convert parameter 1 from 'QWidget *' to 'QDialogPrivate &'
+     1>dialogs\newprojdialog.cpp(22): error C2039: 'addMultiCellWidget' : is not a member of 'QGridLayout'
+                 c:\qt\qt-4.8.6-x64-msvc2012\include\qtgui\qgridlayout.h(60) : see declaration of 'QGridLayout'
+     1>dialogs\newprojdialog.cpp(25): error C2039: 'addMultiCellWidget' : is not a member of 'QGridLayout'
+                 c:\qt\qt-4.8.6-x64-msvc2012\include\qtgui\qgridlayout.h(60) : see declaration of 'QGridLayout'
+         packagedialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\dialogs\packagedialog.h(41): error C2061: syntax error : identifier 'Q_UINT32'
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\dialogs\packagedialog.h(42): error C2061: syntax error : identifier 'Q_UINT32'
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\dialogs\packagedialog.h(43): error C2061: syntax error : identifier 'Q_UINT32'
+     1>.\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         Generating Code...
+         Compiling...
+         savedialog.cpp
+     1>.\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         searchdialog.cpp
+     1>.\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         settingsdialog.cpp
+     1>.\node.h(7): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         simguisettingsdialog.cpp
+     1>.\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         simmessage.cpp
+     1>.\main.h(15): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         sweepdialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\dialogs\sweepdialog.h(7): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         vasettingsdialog.cpp
+     1>.\main.h(15): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         vtabbar.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\dialogs\vtabbar.h(8): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         vtabbeddockwidget.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\dialogs\vtabbeddockwidget.h(6): fatal error C1083: Cannot open include file: 'Q3DockWindow': No such file or directory
+         vtabbutton.cpp
+     1>dialogs\vtabbutton.cpp(11): error C2664: 'QPushButton::QPushButton(const QString &,QWidget *)' : cannot convert parameter 1 from 'QWidget *' to 'const QString &'
+                 Reason: cannot convert from 'QWidget *' to 'const QString'
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>dialogs\vtabbutton.cpp(20): error C3861: 'setToggleButton': identifier not found
+     1>dialogs\vtabbutton.cpp(46): error C3861: 'constPolish': identifier not found
+     1>dialogs\vtabbutton.cpp(65): error C3861: 'isOn': identifier not found
+         vtabwidget.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\dialogs\vtabbar.h(8): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         element.cpp
+         moc_changedialog.cpp
+         moc_componentdialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         moc_diagramdialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\diagrams\graph.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         moc_digisettingsdialog.cpp
+         moc_exportdialog.cpp
+         moc_filldialog.cpp
+         moc_graphictextdialog.cpp
+         moc_id_dialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\generatedfiles\release\../../paintings/id_dialog.h(8): fatal error C1083: Cannot open include file: 'Q3VBoxLayout': No such file or directory
+         Generating Code...
+         Compiling...
+         moc_importdialog.cpp
+         moc_labeldialog.cpp
+         moc_librarydialog.cpp
+         moc_loaddialog.cpp
+         moc_markerdialog.cpp
+         moc_matchdialog.cpp
+         moc_messagedock.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         moc_newprojdialog.cpp
+         moc_octave_window.cpp
+         moc_packagedialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\generatedfiles\release\../../dialogs/packagedialog.h(41): error C2061: syntax error : identifier 'Q_UINT32'
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\generatedfiles\release\../../dialogs/packagedialog.h(42): error C2061: syntax error : identifier 'Q_UINT32'
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\generatedfiles\release\../../dialogs/packagedialog.h(43): error C2061: syntax error : identifier 'Q_UINT32'
+         moc_savedialog.cpp
+         moc_schematic.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components/component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         moc_searchdialog.cpp
+         moc_settingsdialog.cpp
+         moc_simgui.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\generatedfiles\release\../../simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         moc_simguisettingsdialog.cpp
+     1>.\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         moc_simmessage.cpp
+         moc_spicedialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\generatedfiles\release\../../components/spicedialog.h(10): fatal error C1083: Cannot open include file: 'Q3VBoxLayout': No such file or directory
+         moc_spicefile.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components\component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         moc_sweepdialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\generatedfiles\release\../../dialogs/sweepdialog.h(7): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         Generating Code...
+         Compiling...
+         moc_textdoc.cpp
+         moc_vasettingsdialog.cpp
+         moc_vtabbar.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\generatedfiles\release\../../dialogs/vtabbar.h(8): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         moc_vtabbeddockwidget.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\generatedfiles\release\../../dialogs/vtabbeddockwidget.h(6): fatal error C1083: Cannot open include file: 'Q3DockWindow': No such file or directory
+         moc_vtabbutton.cpp
+         moc_vtabwidget.cpp
+         main.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         messagedock.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         mnemo.cpp
+     1>mnemo.cpp(48): error C2039: 'find' : is not a member of 'QString'
+                 c:\qt\qt-4.8.6-x64-msvc2012\include\qtcore\qstring.h(84) : see declaration of 'QString'
+     1>mnemo.cpp(48): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         module.cpp
+     1>module.cpp(2): fatal error C1083: Cannot open include file: 'Q3Dict': No such file or directory
+         mouseactions.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         node.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\node.h(7): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         octave_window.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\main.h(15): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         filldialog.cpp
+     1>paintings\filldialog.cpp(20): error C3861: 'setCaption': identifier not found
+     1>paintings\filldialog.cpp(28): error C2661: 'QGridLayout::QGridLayout' : no overloaded function takes 5 arguments
+     1>paintings\filldialog.cpp(40): error C2039: 'setPaletteBackgroundColor' : is not a member of 'QPushButton'
+                 c:\qt\qt-4.8.6-x64-msvc2012\include\qtgui\qpushbutton.h(57) : see declaration of 'QPushButton'
+     1>paintings\filldialog.cpp(46): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(47): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(48): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(49): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(50): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(59): error C2661: 'QGridLayout::QGridLayout' : no overloaded function takes 5 arguments
+     1>paintings\filldialog.cpp(63): error C2039: 'addMultiCellWidget' : is not a member of 'QGridLayout'
+                 c:\qt\qt-4.8.6-x64-msvc2012\include\qtgui\qgridlayout.h(60) : see declaration of 'QGridLayout'
+     1>paintings\filldialog.cpp(69): error C2039: 'setPaletteBackgroundColor' : is not a member of 'QPushButton'
+                 c:\qt\qt-4.8.6-x64-msvc2012\include\qtgui\qpushbutton.h(57) : see declaration of 'QPushButton'
+     1>paintings\filldialog.cpp(76): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(77): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(78): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(79): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(80): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(81): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(82): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(83): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(84): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(85): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(86): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(87): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(88): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(89): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(90): error C2661: 'QComboBox::insertItem' : no overloaded function takes 1 arguments
+     1>paintings\filldialog.cpp(127): error C2039: 'paletteBackgroundColor' : is not a member of 'QPushButton'
+                 c:\qt\qt-4.8.6-x64-msvc2012\include\qtgui\qpushbutton.h(57) : see declaration of 'QPushButton'
+     1>paintings\filldialog.cpp(128): error C2039: 'setPaletteBackgroundColor' : is not a member of 'QPushButton'
+                 c:\qt\qt-4.8.6-x64-msvc2012\include\qtgui\qpushbutton.h(57) : see declaration of 'QPushButton'
+     1>paintings\filldialog.cpp(135): error C2039: 'paletteBackgroundColor' : is not a member of 'QPushButton'
+                 c:\qt\qt-4.8.6-x64-msvc2012\include\qtgui\qpushbutton.h(57) : see declaration of 'QPushButton'
+     1>paintings\filldialog.cpp(136): error C2039: 'setPaletteBackgroundColor' : is not a member of 'QPushButton'
+                 c:\qt\qt-4.8.6-x64-msvc2012\include\qtgui\qpushbutton.h(57) : see declaration of 'QPushButton'
+         graphictextdialog.cpp
+     1>.\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         id_dialog.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\paintings\id_dialog.h(8): fatal error C1083: Cannot open include file: 'Q3VBoxLayout': No such file or directory
+         id_text.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\paintings\id_text.h(9): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         painting.cpp
+         portsymbol.cpp
+     1>.\main.h(15): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         schematic.cpp
+     1>schematic.cpp(16): fatal error C1083: Cannot open include file: 'Q3IconView': No such file or directory
+         Generating Code...
+         Compiling...
+         schematic_element.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components/component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         schematic_file.cpp
+     1>schematic_file.cpp(10): fatal error C1083: Cannot open include file: 'Q3TextEdit': No such file or directory
+         simgui.cpp
+     1>simgui.cpp(8): fatal error C1083: Cannot open include file: 'QtSvg': No such file or directory
+         simguidoc.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\simgui.h(12): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         simgui_actions.cpp
+     1>simgui_actions.cpp(7): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         simgui_init.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\main.h(15): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         syntax.cpp
+         textdoc.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\main.h(15): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         viewpainter.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\diagrams/graph.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         wire.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\components/component.h(5): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         wirelabel.cpp
+     1>c:\users\sabrina\desktop\simulationgui\simulationgui\wirelabel.h(10): fatal error C1083: Cannot open include file: 'Q3PtrList': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Sabrina\Desktop\simulationGUI\simulationGUI\simulationGUI.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:47.34

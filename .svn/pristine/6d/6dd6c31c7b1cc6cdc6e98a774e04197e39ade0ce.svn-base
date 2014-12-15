@@ -1,0 +1,1424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{3adc6a8c-cd4f-48ec-81bd-5e83c4a29d81}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{c193935a-fde4-4b4c-a47d-85f0861e3262}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="messagedock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_messagedock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_messagedock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="mnemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mouseactions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="octave_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_octave_window.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_octave_window.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="schematic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_schematic.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_schematic.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="schematic_element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="schematic_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="syntax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textdoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_textdoc.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_textdoc.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewpainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wirelabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ampere_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ampere_dc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\capacitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\componentdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_componentdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_componentdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="components\equation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\ground.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\inductor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\iprobe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libcomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\param_sweep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\resistor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\sparamfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\spicedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_spicedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_spicedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="components\spicefile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_spicefile.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_spicefile.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vacomponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vafile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\volt_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\volt_dc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\vprobe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diagrams\diagram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diagrams\diagramdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_diagramdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_diagramdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="diagrams\graph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diagrams\marker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diagrams\markerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_markerdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_markerdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="diagrams\smithdiagram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diagrams\tabdiagram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diagrams\timingdiagram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diagrams\truthdiagram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\changedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_changedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_changedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\digisettingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_digisettingsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_digisettingsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\exportdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_exportdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_exportdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\importdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_importdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_importdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\labeldialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_labeldialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_labeldialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\librarydialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_librarydialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_librarydialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\loaddialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_loaddialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_loaddialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\matchdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_matchdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_matchdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\newprojdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_newprojdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_newprojdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\packagedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_packagedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_packagedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\savedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_savedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_savedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\searchdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_searchdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_searchdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\simmessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_simmessage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_simmessage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\sweepdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sweepdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sweepdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\vasettingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vasettingsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vasettingsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\vtabbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vtabbar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vtabbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\vtabbeddockwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vtabbeddockwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vtabbeddockwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\vtabbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vtabbutton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vtabbutton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\vtabwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vtabwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vtabwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="paintings\filldialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_filldialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_filldialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="paintings\graphictextdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_graphictextdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_graphictextdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="paintings\id_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_id_dialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_id_dialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="paintings\id_text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paintings\painting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paintings\portsymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_simgui.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_simgui.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_simgui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simgui_actions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simgui_init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simguidoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\simguisettingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_simguisettingsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_simguisettingsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mnemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mouseactions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="syntax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewpainter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wirelabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ampere_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ampere_dc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\capacitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\components.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\equation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\ground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\inductor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\iprobe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\param_sweep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\resistor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\source_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\sparamfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vacomponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vafile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\volt_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\volt_dc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\vprobe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diagrams\diagram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diagrams\diagrams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diagrams\graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diagrams\marker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diagrams\smithdiagram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diagrams\tabdiagram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diagrams\timingdiagram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diagrams\truthdiagram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogs\vtabglobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paintings\id_text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paintings\painting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paintings\paintings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paintings\portsymbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simguidoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simguilib_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="messagedock.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="octave_window.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="schematic.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="textdoc.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="components\componentdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="components\spicedialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="components\spicefile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="diagrams\diagramdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="diagrams\markerdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\changedialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\digisettingsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\exportdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\importdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\labeldialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\librarydialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\loaddialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\matchdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\newprojdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\packagedialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\savedialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\searchdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\settingsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\simmessage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\sweepdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\vasettingsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\vtabbar.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\vtabbeddockwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\vtabbutton.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\vtabwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="paintings\filldialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="paintings\graphictextdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="paintings\id_dialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simgui.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simgui.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialogs\simguisettingsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmaps\ac_current.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ac_voltage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ac.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\am_mod.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\amplifier.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\and.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\andor4x2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\andor4x3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\andor4x4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\arrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\attenuator.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\back.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\biast.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\binarytogrey4bit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\bondwire.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\bottom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\bsim3v34nMOS.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\bsim3v34pMOS.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\bsim4v30nMOS.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\bsim4v30pMOS.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\buffer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\capacitor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\cccs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ccvs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\circulator.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\coaxial.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\comp_1bit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\comp_2bit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\comp_4bit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\coplanar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\coupler.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\cpwgap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\cpwopen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\cpwshort.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\cpwstep.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ctline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\curve.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dc_current.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dc_voltage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dc.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dcblock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dcfeed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\deactiv.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dff_SR.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dflipflop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\diac.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\digi_source.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\digi.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\diode.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\DLS_1ton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\DLS_nto1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dmosfet_sub.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dmosfet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dmux2to4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dmux3to8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\dmux4to16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\edd.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\editcopy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\editcut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\editdelete.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\editpaste.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\EKV26nMOS.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\EKV26pMOS.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ellipse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ellipsearc.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\equation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\fa1b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\fa2b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\fileclose.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\filenew.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\fileopen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\fileprint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\filesave.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\filesaveall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\filledellipse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\filledrect.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\forward.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\gatedDlatch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\gear.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\gnd.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\greytobinary4bit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\gyrator.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ha1b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\hb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\hicumL2V2p31n.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\home.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\hpribin4bit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\hybrid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\iexp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ifile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\inductor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\inverter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\iprobe.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ipulse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\irect.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\isolator.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\jkff_SR.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\jkflipflop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\line.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\log_amp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\logic_0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\logic_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\marker.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\MESFET.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mirror.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mirrory.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mod_amp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mscorner.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mscoupled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mscross.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\msgap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mslange.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\msline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\msmbend.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\msopen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\msrstub.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\msstep.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mstee.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\msvia.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mutual.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mutual2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mux2to1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mux4to1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\mux8to1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\nand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\next.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\nfet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\nigbt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\nmosfet_sub.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\nmosfet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\nodename.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\noise_current.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\noise_ii.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\noise_iv.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\noise_volt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\noise_vv.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\nor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\npn_therm.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\npn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\npnsub_therm.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\npnsub.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\opamp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\optimize.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\or.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pad2bit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pad3bit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pad4bit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pfet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\photodiode.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\phototransistor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pm_mod.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pmosfet_sub.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pmosfet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pnp_therm.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pnp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pnpsub_therm.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pnpsub.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pointer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\polar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\polarsmith.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\port.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\potentiometer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\previous.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\pshifter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\quit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\rebuild.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\rect.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\rect3d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\rectangle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\rectline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\redo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\relais.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\resistor_us.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\resistor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\rfedd.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\rlcg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\rotate_ccw.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\rsflipflop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\smith.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\smithpolar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\source.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\sparameter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\spfile1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\spfile2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\spfile3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\spicefile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\subcircuit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\subport.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\substrate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\sweep.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\switch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\symtrans.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\tabular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\text.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\textnew.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\tff_SR.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\thyristor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\timing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\tline_4port.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\tline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\top.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\tran.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\transformer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\triac.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\truth.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\tunneldiode.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\twistedpair.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\undo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\vccs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\vcvs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\vexp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\vfile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\vhdlfile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\viewmag-.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\viewmag+.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\viewmag1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\viewmagfit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\vprobe.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\vpulse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\vrect.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\wire.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\xnor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\xor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ysmith.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\etran.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\ecvs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\vcresistor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\tick.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\error.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bitmaps\tiny.simgui.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmaps\big.button.simgui.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmaps\big.simgui.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmaps\tiny.button.simgui.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

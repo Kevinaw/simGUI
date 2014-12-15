@@ -1,0 +1,8 @@
+./.svn
+./x64
+./simulationGUI.opensdf
+./simulationGUI.sdf
+*.opensdf
+*.sdf
+*.suo
+*.vcxproj.user

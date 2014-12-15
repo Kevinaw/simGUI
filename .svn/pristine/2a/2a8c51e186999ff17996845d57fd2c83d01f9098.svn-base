@@ -1,0 +1,19 @@
+#ifndef SIMULATIONGUI_H
+#define SIMULATIONGUI_H
+
+#include <QtWidgets/QMainWindow>
+#include "ui_simulationgui.h"
+
+class simulationGUI : public QMainWindow
+{
+	Q_OBJECT
+
+public:
+	simulationGUI(QWidget *parent = 0);
+	~simulationGUI();
+
+private:
+	Ui::simulationGUIClass ui;
+};
+
+#endif // SIMULATIONGUI_H
