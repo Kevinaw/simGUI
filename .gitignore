@@ -1,5 +1,6 @@
-./.svn
-./x64
+.svn/
+x64/
+simulationGUI/x64/
 ./simulationGUI.opensdf
 ./simulationGUI.sdf
 *.opensdf
