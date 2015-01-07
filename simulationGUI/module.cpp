@@ -174,6 +174,8 @@ void Module::intoCategory (Module * m) {
   REGISTER_COMP_1 (QObject::tr("components"),val)
 #define REGISTER_DIGITAL_1(val) \
   REGISTER_COMP_1 (QObject::tr("components"),val)
+#define REGISTER_NONLINEAR_1(val) \
+  REGISTER_COMP_1 (QObject::tr("components"),val)
 
 // This function has to be called once at application startup.  It
 // registers every component available in the application.  Put here
@@ -210,12 +212,12 @@ void Module::registerModules (void) {
   //REGISTER_LUMPED_1 (RFedd2P);
 
   // sources
-  REGISTER_SOURCE_1 (Volt_dc);
-  REGISTER_SOURCE_1 (Ampere_dc);
+  //REGISTER_SOURCE_1 (Volt_dc);
+  //REGISTER_SOURCE_1 (Ampere_dc);
   REGISTER_SOURCE_1 (Volt_ac);
   REGISTER_SOURCE_1 (Ampere_ac);
- /* REGISTER_SOURCE_1 (Source_ac);
-  REGISTER_SOURCE_1 (Volt_noise);
+  REGISTER_SOURCE_1 (Machine);
+ /* REGISTER_SOURCE_1 (Source_ac);  
   REGISTER_SOURCE_1 (Ampere_noise);
   REGISTER_SOURCE_1 (VCCS);
   REGISTER_SOURCE_1 (CCCS);
@@ -275,7 +277,7 @@ void Module::registerModules (void) {
   //REGISTER_NONLINEAR_3 (MOSFET, info, info_p, info_depl);
   //REGISTER_NONLINEAR_3 (MOSFET_sub, info, info_p, info_depl);
   //REGISTER_NONLINEAR_1 (OpAmp);
-  //REGISTER_NONLINEAR_1 (EqnDefined);
+  REGISTER_NONLINEAR_1 (EqnDefined);
   //REGISTER_NONLINEAR_1 (Diac);
   //REGISTER_NONLINEAR_1 (Triac);
   //REGISTER_NONLINEAR_1 (Thyristor);

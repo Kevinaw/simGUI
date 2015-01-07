@@ -29,6 +29,8 @@
 #include "logical_and.h"
 #include "logical_or.h"
 #include "switch.h"
+#include "machine.h"
+#include "eqndefined.h"
 
 // external simulation components
 

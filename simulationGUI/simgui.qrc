@@ -64,5 +64,7 @@
         <file>bitmaps/nor.png</file>
         <file>bitmaps/or.png</file>
         <file>bitmaps/switch.png</file>
+        <file>bitmaps/machine.png</file>
+		<file>bitmaps/edd.png</file>
     </qresource>
 </RCC>

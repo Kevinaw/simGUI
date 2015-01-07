@@ -494,6 +494,12 @@
     <ClCompile Include="components\switch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="components\machine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\eqndefined.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="element.h">
@@ -647,6 +653,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="components\switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\eqndefined.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -915,6 +927,9 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="bitmaps\or.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\machine.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

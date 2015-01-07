@@ -13,10 +13,14 @@ Volt_ac::Volt_ac()
   Lines.append(new Line( 30,  0, 12,  0,QPen(Qt::darkBlue,2)));
   Lines.append(new Line( 18,  5, 18, 11,QPen(Qt::red,1)));
   Lines.append(new Line( 21,  8, 15,  8,QPen(Qt::red,1)));
-  Lines.append(new Line(-18,  5,-18, 11,QPen(Qt::black,1)));
+//  Lines.append(new Line(-18,  5,-18, 11,QPen(Qt::black,1)));
+    
+  Lines.append(new Line(-30, -11, -30, 11,QPen(Qt::darkBlue,3)));
+  Lines.append(new Line( -36, -7,  -36, 7,QPen(Qt::darkBlue,3)));
+  Lines.append(new Line( -42, -3,  -42, 3,QPen(Qt::darkBlue,3)));
 
   Ports.append(new Port( 30,  0));
-  Ports.append(new Port(-30,  0));
+  //Ports.append(new Port(-30,  0));
 
   x1 = -30; y1 = -14;
   x2 =  30; y2 =  14;

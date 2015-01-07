@@ -15,8 +15,12 @@ Ampere_ac::Ampere_ac()
   Arcs.append(new Arc( 12,  5,  6,  6,16*270, 16*180,QPen(Qt::darkBlue,2)));
   Arcs.append(new Arc( 12, 11,  6,  6, 16*90, 16*180,QPen(Qt::darkBlue,2)));
 
+  Lines.append(new Line(-30, -11, -30, 11,QPen(Qt::darkBlue,3)));
+  Lines.append(new Line( -36, -7,  -36, 7,QPen(Qt::darkBlue,3)));
+  Lines.append(new Line( -42, -3,  -42, 3,QPen(Qt::darkBlue,3)));
+
   Ports.append(new Port( 30,  0));
-  Ports.append(new Port(-30,  0));
+//  Ports.append(new Port(-30,  0));
 
   x1 = -30; y1 = -14;
   x2 =  30; y2 =  16;

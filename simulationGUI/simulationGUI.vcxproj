@@ -44,6 +44,7 @@
     <ClCompile Include="components\capacitor.cpp" />
     <ClCompile Include="components\component.cpp" />
     <ClCompile Include="components\componentdialog.cpp" />
+    <ClCompile Include="components\eqndefined.cpp" />
     <ClCompile Include="components\equation.cpp" />
     <ClCompile Include="components\ground.cpp" />
     <ClCompile Include="components\inductor.cpp" />
@@ -53,6 +54,7 @@
     <ClCompile Include="components\logical_nand.cpp" />
     <ClCompile Include="components\logical_nor.cpp" />
     <ClCompile Include="components\logical_or.cpp" />
+    <ClCompile Include="components\machine.cpp" />
     <ClCompile Include="components\param_sweep.cpp" />
     <ClCompile Include="components\resistor.cpp" />
     <ClCompile Include="components\source_ac.cpp" />
@@ -412,6 +414,7 @@
     <ClInclude Include="components\capacitor.h" />
     <ClInclude Include="components\component.h" />
     <ClInclude Include="components\components.h" />
+    <ClInclude Include="components\eqndefined.h" />
     <ClInclude Include="components\equation.h" />
     <ClInclude Include="components\ground.h" />
     <ClInclude Include="components\inductor.h" />
@@ -421,6 +424,7 @@
     <ClInclude Include="components\logical_nand.h" />
     <ClInclude Include="components\logical_nor.h" />
     <ClInclude Include="components\logical_or.h" />
+    <ClInclude Include="components\machine.h" />
     <ClInclude Include="components\param_sweep.h" />
     <ClInclude Include="components\resistor.h" />
     <ClInclude Include="components\source_ac.h" />
@@ -1236,6 +1240,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </Image>
+    <Image Include="bitmaps\machine.png" />
     <Image Include="bitmaps\marker.png">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
