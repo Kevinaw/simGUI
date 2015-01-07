@@ -56,5 +56,13 @@
         <file>bitmaps/mirror.png</file>
         <file>bitmaps/inductor.png</file>
         <file>bitmaps/gear.png</file>
+        <file>bitmaps/tline.png</file>
+        <file>bitmaps/transformer.png</file>
+        <file>bitmaps/and.png</file>
+        <file>bitmaps/inverter.png</file>
+        <file>bitmaps/nand.png</file>
+        <file>bitmaps/nor.png</file>
+        <file>bitmaps/or.png</file>
+        <file>bitmaps/switch.png</file>
     </qresource>
 </RCC>

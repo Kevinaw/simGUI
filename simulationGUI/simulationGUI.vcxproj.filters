@@ -473,6 +473,27 @@
     <ClCompile Include="GeneratedFiles\Release\moc_simguisettingsdialog.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="components\transformer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\tline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\logical_nand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\logical_nor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\logical_and.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\logical_or.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\switch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="element.h">
@@ -605,6 +626,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="simguilib_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\transformer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\tline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\logical_nand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\logical_nor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\logical_and.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\logical_or.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\switch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -849,6 +891,30 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="bitmaps\error.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\tline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\transformer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\switch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\and.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\inverter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\nand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\nor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmaps\or.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

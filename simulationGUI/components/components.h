@@ -22,6 +22,13 @@
 #include "vprobe.h"
 #include "spicefile.h"
 #include "libcomp.h"
+#include "transformer.h"
+#include "tline.h"
+#include "logical_nand.h"
+#include "logical_nor.h"
+#include "logical_and.h"
+#include "logical_or.h"
+#include "switch.h"
 
 // external simulation components
 

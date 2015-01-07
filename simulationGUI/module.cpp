@@ -170,6 +170,10 @@ void Module::intoCategory (Module * m) {
   REGISTER_COMP_1 (QObject::tr("components"),val)
 #define REGISTER_PROBE_1(val) \
   REGISTER_COMP_1 (QObject::tr("components"),val)
+#define REGISTER_TRANS_1(val) \
+  REGISTER_COMP_1 (QObject::tr("components"),val)
+#define REGISTER_DIGITAL_1(val) \
+  REGISTER_COMP_1 (QObject::tr("components"),val)
 
 // This function has to be called once at application startup.  It
 // registers every component available in the application.  Put here
@@ -177,12 +181,13 @@ void Module::intoCategory (Module * m) {
 void Module::registerModules (void) {
 
   // lumped components
-  REGISTER_LUMPED_2 (Resistor, info, info_us);
+  //REGISTER_LUMPED_2 (Resistor, info, info_us);
+  REGISTER_LUMPED_1 (Resistor);
   REGISTER_LUMPED_1 (Capacitor);
   REGISTER_LUMPED_1 (Inductor);
   REGISTER_LUMPED_1 (Ground);
 
-  //REGISTER_LUMPED_1 (Transformer);
+  REGISTER_LUMPED_1 (Transformer);
   //REGISTER_LUMPED_1 (symTrafo);
   //REGISTER_LUMPED_1 (dcBlock);
   //REGISTER_LUMPED_1 (dcFeed);
@@ -199,7 +204,7 @@ void Module::registerModules (void) {
   //REGISTER_LUMPED_1 (vProbe);
   //REGISTER_LUMPED_1 (Mutual);
   //REGISTER_LUMPED_1 (Mutual2);
-  //REGISTER_LUMPED_1 (Switch);
+  REGISTER_LUMPED_1 (Switch);
   //REGISTER_LUMPED_1 (Relais);
   //REGISTER_LUMPED_1 (RFedd);
   //REGISTER_LUMPED_1 (RFedd2P);
@@ -235,7 +240,7 @@ void Module::registerModules (void) {
   REGISTER_PROBE_1 (vProbe);
 
   //// transmission lines
-  //REGISTER_TRANS_1 (TLine);
+  REGISTER_TRANS_1 (TLine);
   //REGISTER_TRANS_1 (TLine_4Port);
   //REGISTER_TRANS_1 (CoupledTLine);
   //REGISTER_TRANS_1 (TwistedPair);
@@ -304,9 +309,9 @@ void Module::registerModules (void) {
   //// digital components
   //REGISTER_DIGITAL_1 (Digi_Source);
   //REGISTER_DIGITAL_1 (Logical_Inv);
-  //REGISTER_DIGITAL_1 (Logical_OR);
+  REGISTER_DIGITAL_1 (Logical_OR);
   //REGISTER_DIGITAL_1 (Logical_NOR);
-  //REGISTER_DIGITAL_1 (Logical_AND);
+  REGISTER_DIGITAL_1 (Logical_AND);
   //REGISTER_DIGITAL_1 (Logical_NAND);
   //REGISTER_DIGITAL_1 (Logical_XOR);
   //REGISTER_DIGITAL_1 (Logical_XNOR);

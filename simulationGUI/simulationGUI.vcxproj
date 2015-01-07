@@ -49,12 +49,19 @@
     <ClCompile Include="components\inductor.cpp" />
     <ClCompile Include="components\iprobe.cpp" />
     <ClCompile Include="components\libcomp.cpp" />
+    <ClCompile Include="components\logical_and.cpp" />
+    <ClCompile Include="components\logical_nand.cpp" />
+    <ClCompile Include="components\logical_nor.cpp" />
+    <ClCompile Include="components\logical_or.cpp" />
     <ClCompile Include="components\param_sweep.cpp" />
     <ClCompile Include="components\resistor.cpp" />
     <ClCompile Include="components\source_ac.cpp" />
     <ClCompile Include="components\sparamfile.cpp" />
     <ClCompile Include="components\spicedialog.cpp" />
     <ClCompile Include="components\spicefile.cpp" />
+    <ClCompile Include="components\switch.cpp" />
+    <ClCompile Include="components\tline.cpp" />
+    <ClCompile Include="components\transformer.cpp" />
     <ClCompile Include="components\vacomponent.cpp" />
     <ClCompile Include="components\vafile.cpp" />
     <ClCompile Include="components\volt_ac.cpp" />
@@ -410,10 +417,17 @@
     <ClInclude Include="components\inductor.h" />
     <ClInclude Include="components\iprobe.h" />
     <ClInclude Include="components\libcomp.h" />
+    <ClInclude Include="components\logical_and.h" />
+    <ClInclude Include="components\logical_nand.h" />
+    <ClInclude Include="components\logical_nor.h" />
+    <ClInclude Include="components\logical_or.h" />
     <ClInclude Include="components\param_sweep.h" />
     <ClInclude Include="components\resistor.h" />
     <ClInclude Include="components\source_ac.h" />
     <ClInclude Include="components\sparamfile.h" />
+    <ClInclude Include="components\switch.h" />
+    <ClInclude Include="components\tline.h" />
+    <ClInclude Include="components\transformer.h" />
     <ClInclude Include="components\vacomponent.h" />
     <ClInclude Include="components\vafile.h" />
     <ClInclude Include="components\volt_ac.h" />
@@ -1076,6 +1090,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </Image>
+    <Image Include="bitmaps\and.png" />
     <Image Include="bitmaps\back.png">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -1214,6 +1229,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </Image>
+    <Image Include="bitmaps\inverter.png" />
     <Image Include="bitmaps\iprobe.png">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -1232,12 +1248,15 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </Image>
+    <Image Include="bitmaps\nand.png" />
     <Image Include="bitmaps\next.png">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </Image>
+    <Image Include="bitmaps\nor.png" />
+    <Image Include="bitmaps\or.png" />
     <Image Include="bitmaps\previous.png">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -1274,18 +1293,21 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </Image>
+    <Image Include="bitmaps\switch.png" />
     <Image Include="bitmaps\textnew.png">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </Image>
+    <Image Include="bitmaps\tline.png" />
     <Image Include="bitmaps\top.png">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </Image>
+    <Image Include="bitmaps\transformer.png" />
     <Image Include="bitmaps\undo.png">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
